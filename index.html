@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>aToadWhoCodes Creative</title>
+  <meta name="description" content="Privacy-first tools for document conversion, OCR, and retro disk translation." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: #0b0c10; color: #e8e8e8; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 48px 20px; }
+    .card { background: #12131a; border: 1px solid #25283a; border-radius: 16px; padding: 24px; margin-top: 18px; }
+    a { color: #7dd3fc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .btn { display: inline-block; padding: 12px 16px; border-radius: 12px; background: #1f2937; border: 1px solid #374151; margin-right: 10px; }
+    .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .muted { color: #a7a7a7; }
+    h1 { font-size: 34px; margin: 0 0 8px; }
+    h2 { margin: 0 0 6px; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>aToadWhoCodes Creative</h1>
+    <p class="muted">Privacy-first tools for document conversion, OCR, and retro disk translation.</p>
+
+    <p>
+      <a class="btn" href="#diskscribe">DiskScribe2026</a>
+      <a class="btn" href="#pondscribe">PondScribe</a>
+      <a class="btn" href="mailto:hello@atoadwhocodes.com">Contact</a>
+    </p>
+
+    <div class="grid">
+      <div class="card" id="diskscribe">
+        <h2>DiskScribe2026</h2>
+        <p>Open legacy disk images, extract text, translate, and output patched images while preserving originals.</p>
+      </div>
+
+      <div class="card" id="pondscribe">
+        <h2>PondScribe</h2>
+        <p>Convert and OCR documents into searchable PDFs, TXT, DOCX, and more—batch-friendly and predictable.</p>
+      </div>
+
+      <div class="card">
+        <h2>Pricing</h2>
+        <p>Simple tiers and early access options.</p>
+      </div>
+
+      <div class="card">
+        <h2>Updates</h2>
+        <p>Release notes and roadmap updates coming soon.</p>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top: 26px;">© <span id="y"></span> aToadWhoCodes Creative</p>
+  </div>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
